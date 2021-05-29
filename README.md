@@ -1,9 +1,14 @@
 # aws-sqs-send-springboot
 Send Messages to AWS SQS using spring boot
+
+
 #Adding or Configuring AWS credentials:
 
 Create a IAM user in AWS and copy your credentials to connect to AWS environment using AWS JAVA JDK.
-You can set Enviroment variable or Create a profile file as mentioned below.
+In order to connect AWS using AWS JDK 
+There are multiple ways to load credentials refer AWS doucment on this and I had mentioned only few ways here and refer the source code for the same in the repo
+
+Using Enviroment variable or Create a profile file as mentioned below.
 1. Enviroment Variables
    Go your pc or laptop enviroment variable window and add two variable mentioned in under point 2.
 
